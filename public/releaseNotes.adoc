@@ -1,6 +1,6 @@
 # Release Notes
 
-## 2.4.0 (2023-03-24)
+## 2.4.0 (2022-03-24)
 ### Added
 * Make entire row clickable
 * Added Reward Weight metric to Proposal page
