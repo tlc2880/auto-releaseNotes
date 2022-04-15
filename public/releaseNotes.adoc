@@ -1,0 +1,321 @@
+# Release Notes
+
+## 2.4.0 (2023-03-24)
+### Added
+* Make entire row clickable
+* Added Reward Weight metric to Proposal page
+
+### Fixed
+* Change Transactions to ICP Transactions throughout app
+* Remove CPU Cores and Memory stats from homepage
+* Enhancements to Proposal Voting History chart
+* Proposer value links to Neuron page
+* Subnet Node Machines default 25 items per page
+* Remove ExchangeRate Proposals from homepage proposal grid
+
+## 2.3.2 (2022-03-07)
+### Added
+* Added Voting History chart to Proposal page
+* Voting History chart shows voting period extensions
+* Added Votes of Known Neurons table to Proposal page
+
+## 2.3.1 (2022-03-07)
+### Fixed
+* Convert Finalization Rate chart to total sum chart
+* Remove Total Bandwidth Chart
+
+## 2.3.0 (2022-03-03)
+### Added
+* Add a Node Machines page
+* Add a Node Machine page
+* Nodes Grid on Subnet page links to Node Machine Page
+* Add Nodes Grid to homepage
+* Add Nodes Grid to node provider page
+* Add node search support
+
+### Fixed
+* Updated location fetch endpoint
+
+## 2.2.2 (2022-02-23)
+### Fixed
+* By default do not show exchange rate proposals
+* Update the State metric title to Total Canister State
+* Fixed links to Neurons page
+
+## 2.2.1 (2022-02-15)
+### Fixed
+* Fix Conversion Rate chart data alignment
+
+## 2.2.0 (2022-02-14)
+### Added
+* Added Neurons page
+
+### Fixed
+* Treat markdown newline characters as a line break
+* Support NnsFunction::RemoveNodeOperators
+* Support NnsFunction::RerouteCanisterRange
+
+## 2.1.2 (2022-02-07)
+### Added
+* Added ICP/Cycles Conversation Rate Chart
+
+## 2.1.1 (2022-02-03)
+### Fixed
+* Update NNS Community Fund help text
+
+## 2.1.0 (2022-02-02)
+### Added
+* Added NNS Community Fund Stat Card
+
+## 2.0.0 (2022-01-31)
+### Added
+* Homepage Redesign
+
+### Fixed
+* Refactored chart custom series code
+
+## 1.5.0 (2022-01-24)
+### Added
+* Use up/total node count format when nodes are down
+* Added Neuron search
+* Node Machines table on Subnet page
+* Added Releases page
+* Removed Beta tag from Dashboard Header
+* Changed Dashboard Title from ICA NETWORK STATUS to IC NETWORK STATUS
+* Support proposal type Register Known Neuron
+* Added Subnet Upgrades table for Releases page cards
+* Changes to Releases page heatmap charts
+
+## Fixed
+* Fixed Default Map View to Inlcude All Locations
+* Update Total Supply Homepage API Call to use Ledger API
+* Updated Endpoint to Use v3 Route for Fetching Nodes
+* Use v3 endpoints for locations and node providers
+
+## 1.4.1 (2021-12-09)
+### Fixed
+* Only label NNS subnet as System (NNS)
+* Fixed drawer item order on smaller screens
+
+## 1.4.0 (2021-12-09)
+### Fixed
+* Support proposals API changes
+
+### Added
+* Proposal table Title links to Proposal page
+* Added Neuron page
+* Added Circulation Page
+
+## 1.3.11 (2021-11-24)
+### Fixed
+* Fixed URL in Proposals table
+
+## 1.3.10 (2021-11-19)
+### Fixed
+* Support NnsFunction::UpdateUnassignedNodesConfig
+
+### Added
+* Added Neurons table to Governance page
+* Wording changes
+
+## 1.3.9 (2021-11-12)
+### Fixed
+* Single Series Tooltip bug for Message Throughput Chart
+
+### Added
+* Added Chart Slider for Zooming
+
+## 1.3.8 (2021-11-07)
+### Added
+* Support wait-for-quiet in voting 
+
+## 1.3.7 (2021-10-29)
+### Fixed
+* Update Message Throughput Step
+
+## 1.3.6 (2021-10-29)
+### Fixed
+* Message Throughput charts Caption Update
+
+## 1.3.5 (2021-10-28)
+### Added
+* Message Throughput charts query/update
+* Support new proposal format
+
+## 1.3.4 (2021-10-27)
+### Fixed
+* Optimize Homepage Icons
+* Refactored tables code
+
+### Added
+* Items Per Page support for all tables
+* Add Infinity Logo to Header
+* Introduce Color to Dashboard
+
+## 1.3.3 (2021-10-14)
+### Fixed
+* Changed homepage stat icons
+
+### Added
+* Adjusted map circle colors
+* Removed Run a Node link
+
+## 1.3.2 (2021-09-23)
+### Fixed
+* Fixed Subnets table sorting
+* Fix date locale display
+
+### Added
+* Metadata for proposal links
+* Use 3 digits for Voting Results percentages
+* Improved breadcrumbs
+* Support RewardNodeProviders proposals
+
+## 1.3.1 (21-09-17)
+### Fixed
+* Fixed Subnet Metrics Grid re-render
+
+### Added
+* Paginated Account Txn Rosetta API queries
+* Added Proposal search
+* Change numbers that contain a , to use ' instead
+* Fixed II chart to use M for million
+
+## 1.3.0 (21-09-01)
+### Fixed
+* Create dynamic min/max for home page charts
+
+### Added
+* Added Proposal page
+
+## 1.2.5 (21-08-27)
+### Fixed
+* Fixed y-axis on charts
+
+## 1.2.4 (21-08-25)
+### Fixed
+* Remove stopped canisters from Canisters chart.
+
+## 1.2.3 (21-08-20)
+### Fixed
+* Fixed transaction lists to show 10
+
+### Added
+* Added Governance metrics
+
+## 1.2.2 (21-08-13)
+### Fixed
+* Changed homepage map to use API v2
+
+### Added
+* Added staking rewards to governance
+* Added filtering of proposals
+
+## 1.2.1 (21-08-05)
+### Added
+* Alpha Governance Page
+
+## 1.2.0 (21-07-30)
+### Added
+* Added Node Provider Page
+
+## 1.1.0
+### Fixed
+* Disabled 2 finger zoom on map
+* Fix transaction pagination for high page numbers
+* Improve loading animation
+
+### Added
+* Added subnet page
+* Add copy buttons for transaction hashes and accounts
+* Convert app bar to new design and add footer
+* Use cards for home page stats
+* Update homepage map design
+* Use anchor terminology for Internet Identity
+* Replace Messages chart with Cycle Burn Rate chart
+* Governance Page with Proposals table
+
+## 1.0.3
+### Added
+* Change Subnet Explorer Page
+
+* Change Subnet Explorer Page
+[cols="<,^",options="header,autowidth"]
+|=====
+| title      |  bitmap
+| Prof.      |  1000111101
+| Dr.        |  0110000010
+| Dr. habil. |  0001000000
+|=====
+
+e^&#960;i^+1 = 0. H~2~O and x^10^
+
+[red]#Obvious# and [big red yellow-background]*very obvious*.
+[underline]#Underline text#, [overline]#overline text# and
+[blue line-through]*bold blue and line-through*.
+
+[NOTE]
+.A NOTE admonition block
+=====================================================================
+Qui in magna commodo, est labitur dolorum an. Est ne magna primis
+adolescens.
+
+. Fusce euismod commodo velit.
+. Vivamus fringilla mi eu lacus.
+  .. Fusce euismod commodo velit.
+  .. Vivamus fringilla mi eu lacus.
+. Donec eget arcu bibendum
+  nunc consequat lobortis.
+=====================================================================
+
+[quote, Sir Arthur Conan Doyle, The Adventures of Sherlock Holmes]
+____________________________________________________________________
+As he spoke there was the sharp sound of horses' hoofs and
+grating wheels against the curb, followed by a sharp pull at the
+bell. Holmes whistled.
+
+"A pair, by the sound," said he. "Yes," he continued, glancing
+out of the window. "A nice little brougham and a pair of
+beauties. A hundred and fifty guineas apiece. There's money in
+this case, Watson, if there is nothing else."
+____________________________________________________________________
+
+- Praesent eget purus quis magna eleifend eleifend.
+  1. Fusce euismod commodo velit.
+    a. Fusce euismod commodo velit.
+    b. Vivamus fringilla mi eu lacus.
+    c. Donec eget arcu bibendum nunc consequat lobortis.
+  2. Vivamus fringilla mi eu lacus.
+    i)  Fusce euismod commodo velit.
+    ii) Vivamus fringilla mi eu lacus.
+  3. Donec eget arcu bibendum nunc consequat lobortis.
+  4. Nam fermentum mattis ante.
+- Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+  * Fusce euismod commodo velit.
+  ** Qui in magna commodo, est labitur dolorum an. Est ne magna primis
+     adolescens. Sit munere ponderum dignissim et. Minim luptatum et
+     vel.
+  ** Vivamus fringilla mi eu lacus.
+  * Donec eget arcu bibendum nunc consequat lobortis.
+- Nulla porttitor vulputate libero.
+  . Fusce euismod commodo velit.
+  . Vivamus fringilla mi eu lacus.
+[upperroman]
+    .. Fusce euismod commodo velit.
+    .. Vivamus fringilla mi eu lacus.
+  . Donec eget arcu bibendum nunc consequat lobortis.
+
+--------------------------------------
+#include <stdio.h>
+
+int main() {
+   printf("Hello World!\n");
+   exit(0);
+}
+--------------------------------------
+
+video::http://www.808.dk/pics/video/gizmo.ogv[]
+
+image::https://retool.com/static/f7c3a4ef34744c92d441df532e8d3969/8ca30/revision-history.webp[GitHub mascot]
+
+image::https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif[]
