@@ -314,8 +314,12 @@ int main() {
 }
 --------------------------------------
 
-video::http://www.808.dk/pics/video/gizmo.ogv[]
+video::static/gizmo.ogm[]
 
 image::https://retool.com/static/f7c3a4ef34744c92d441df532e8d3969/8ca30/revision-history.webp[GitHub mascot]
 
 image::https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif[]
+
+image::static/dashboard-home3.png[]
+
+image::static/cz-jiraid.gif[]
